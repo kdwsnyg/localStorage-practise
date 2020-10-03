@@ -30,6 +30,6 @@ registorBtn.onclick = function() {
       "password": password.value
     }
     localStorage.setItem(name.value, JSON.stringify(userdata));
-    form.action = 'signin.html';
+    form.action = 'pages/signin.html';
   }
 }
