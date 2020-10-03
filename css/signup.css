@@ -39,6 +39,7 @@ main > * {
 
 .user-inform {
   border: none;
+  width: 85%;
   margin-left: 15px;
 
   font-size: 15px;
