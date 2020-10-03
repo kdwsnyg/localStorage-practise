@@ -1,12 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
   <link rel="stylesheet" href="css/signup.css">
+  <link rel="stylesheet" href="fontawesome-free-5.12.0-web/css/all.min.css">
 </head>
+
 <body>
+  <main>
+    <div id="content">
+      <h2>Sign up</h2>
+      <form>
+        <div class="user-inform-wrapper">
+          <i class="fas fa-user"></i>
+          <input type="text" id="name" class="user-inform" name="name" value="Your Name">
+        </div>
+        <div class="user-inform-wrapper">
+          <i class="fas fa-envelope"></i>
+          <input type="email" id="email" class="user-inform" name="email" value="Your Email">
+        </div>
+        <div class="user-inform-wrapper">
+          <i class="fas fa-lock"></i>
+          <input type="text" id="password" class="user-inform" name="password" value="Password">
+        </div>
+        <div class="user-inform-wrapper">
+          <i class="fas fa-keyboard"></i>
+          <input type="text" id="repeat-pwd" class="user-inform" value="Repeat your password">
+        </div>
+        <div>
+          <button id="registor-btn">Registor</button>
+        </div>
+      </form>
+    </div>
+    <div id="img-wrapper">
+      <div>
+        <img src="imgs/signup-img.jpg">
+      </div>
+      <div>
+        <a href="signin.html">I am already member</a>
+      </div>
+    </div>
+  </main>
   <script src="js/signup.js"></script>
 </body>
+
 </html>

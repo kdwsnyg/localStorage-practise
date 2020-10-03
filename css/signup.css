@@ -1,0 +1,77 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #F8F8F8;
+}
+
+/*注册面板*/
+main {
+  display: flex;
+
+  width: 50%;
+  margin: 50px auto;
+  padding: 40px 40px 40px 90px;
+
+  border-radius: 20px;
+  box-shadow: 0 10px 20px rgb(233, 233, 233);
+  background-color: #fff;
+}
+
+main > * {
+  flex-grow: 1;
+}
+/*内容区*/
+#content h2 {
+  font-size: 35px;
+}
+/*表单*/
+.user-inform-wrapper {
+  margin-bottom: 20px;
+  margin-right: 20px;
+  padding: 5px 0;
+  border-bottom: 1px solid #B5B5B5;
+}
+
+.user-inform-wrapper i {
+  width: 10px;
+  font-size: 10px;
+}
+
+.user-inform {
+  border: none;
+  margin-left: 15px;
+
+  font-size: 15px;
+  outline: none;
+  color: #B5B5B5;
+}
+
+#registor-btn {
+  margin: 30px 0;
+  padding: 13px 30px;
+  border: none;
+
+  font-size: 15px;
+
+  color: #fff;
+  background-color: #70ACE2;
+  border-radius: 5px;
+}
+#registor-btn:active {
+  outline: none;
+  background-color: #679ece;
+}
+
+/*图片*/
+#img-wrapper {
+  padding: 50px 0 0;
+  text-align: center;
+}
+
+img {
+ width: 300px;
+}
+
+#img-wrapper a {
+  color: #000;
+}
